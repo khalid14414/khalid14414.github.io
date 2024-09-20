@@ -94,7 +94,7 @@ header {
 }
 .shapes{
   position: absolute;
-  top: 38%;
+  top: 20%;
   left: 60%;
   width: 10%;
   height: 20%;
@@ -377,6 +377,11 @@ h3 {
   /* border: 2px solid black; */
   box-shadow: 3px 3px #031f3d ;
   border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.edu-list:hover {
+  transform: scale(1.05);
 }
 
 .edu-list h3{
@@ -399,6 +404,11 @@ h3 {
   /* border: 2px solid black; */
   box-shadow: 3px 3px #007BFF;
   border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.exp-list:hover {
+  transform: scale(1.05);
 }
 
 .exp-list h3{
@@ -424,7 +434,7 @@ h3 {
 .date{
   display: block;
     margin-bottom: 10px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 700;
     color: #244065;
 }
