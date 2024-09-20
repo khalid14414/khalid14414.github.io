@@ -53,7 +53,7 @@
     </header>
     <section class="about-row">
         <div class="about">
-            <div class="shape"></div>
+            <!-- <div class="shape"></div> -->
             <div class="about-img">
                 <img src="./asset/IMG-20190916-WA0012.jpg" alt="me">
             </div>
@@ -152,42 +152,28 @@
 
     <section class="contact">
         <div class="contact-container">
-            <form class="contact-form">
-                <h2>Contact Me</h2>
-
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <div class="input-icon">
-                        <i class="fas fa-user"></i>
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <div class="input-icon">
-                        <i class="fas fa-envelope"></i>
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="subject">Subject</label>
-                    <div class="input-icon">
-                        <i class="fas fa-tag"></i>
-                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <div class="input-icon">
-                        <!-- <i class="fas fa-comment"></i> -->
-                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-                    </div>
-                </div>
-                <button type="submit">Send Message</button>
-            </form>
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+                <p>Feel free to reach out to us for any inquiries or assistance.</p>
+                <ul>
+                    <li><img src="email-icon.png" alt="Email Icon"> Support@lpsum.ge</li>
+                    <li><img src="phone-icon.png" alt="Phone Icon"> (+995) 558 49-99-69</li>
+                    <li><img src="location-icon.png" alt="Location Icon"> Tbilisi, Leselidze St. #124</li>
+                </ul>
+            </div>
+            
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                    
+                   
+                    <input type="email" id="email" name="email" placeholder="Email address">
+                    
+                    <textarea id="message" name="message" rows="4" placeholder="Type Message"></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form>
+            </div>
         </div>
     </section>
 

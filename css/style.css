@@ -187,7 +187,7 @@ header {
   font-weight: 400;
   text-align: justify;
   line-height: 2;
-  padding-bottom: 30px;
+  padding: 0 10px 30px;
 }
 
 .about-img img {
@@ -459,162 +459,82 @@ header {
   font-size: 16px;
   color: red;
 }
-
-
-
-/* Contact Form Container */
 .contact-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #3AB1EB;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Contact Form */
-.contact-form {
-  background-color: #fff;
-  padding: 40px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
-  width: 100%;
-  text-align: center;
-  font-family: 'Arial', sans-serif;
+.contact-info {
+  flex: 1;
+  padding-right: 20px;
 }
 
-/* Form Title */
-.contact-form h2 {
-  font-size: 2.2em;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-/* Form Group */
-.form-group {
-  margin-bottom: 20px;
-  text-align: left;
-  position: relative;
-}
-
-/* Input Icon Container */
-.input-icon {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-/* Font Awesome Icon Style */
-.input-icon i {
-  position: absolute;
-  left: 15px;
-  color: #aaa;
-  font-size: 1.2em;
-}
-
-/* Input Fields */
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-  width: 100%;
-  padding: 10px 15px 10px 45px; /* Add padding for the icon */
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 1em;
-  font-family: 'Arial', sans-serif;
-  background-color: #f9f9f9;
-  transition: border 0.3s ease;
-}
-
-/* Input Focus Effect */
-.contact-form input[type="text"]:focus,
-.contact-form input[type="email"]:focus,
-.contact-form textarea:focus {
-  border-color: #007BFF;
-  outline: none;
-  background-color: #fff;
-}
-
-/* Textarea */
-.contact-form textarea {
-  resize: vertical;
-  min-height: 100px;
-}
-
-/* Submit Button */
-.contact-form button[type="submit"] {
-  background-color: #007BFF;
-  color: #fff;
-  border: none;
-  padding: 12px 25px;
-  border-radius: 4px;
-  font-size: 1.2em;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.contact-form button[type="submit"]:hover {
-  background-color: #0056b3;
-}
-/* footer */
-
-footer{
-  background-color: black;
-}
-.brand{
-  width: 40%;
-}
-
-.brand h2{
-  color: white;
-  font-size: 36px;
-  font-weight: 700;
-}
-.brand p{
-  color: white;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.5;
-  margin: 15px 0 20px 0;
-}
-.social-icons i{
+.contact-info h2 {
   font-size: 24px;
+  margin-bottom: 10px;
 }
 
-.social-icons a{
+.contact-info p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.contact-info ul {
+  list-style: none;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info img {
+  margin-right: 10px;
+}
+
+.contact-form {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #00b33c;
   color: white;
-  padding: 5px;
-  margin-right: 20px;
-  /* border: 2px solid white;
-  border-radius: 10px; */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
-.footer-buttons{
-  width: 60%;
-  padding-left: 300px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+.contact-form button:hover {
+  background-color: #009933;
 }
-.footer-row{
-  width: 80%;
-  /* background-color: #FF6347; */
-  margin: 0 auto;
-}
-.footer-content{
-  display: flex;
-  padding: 84px 0;
-}
-.footer-bottom{
-  display: flex;
-}
-
-.footer-bottom ul{
-  display: flex;
-  gap: 20px;
-  padding-left: 80px;
-}
-
-
 
 .footer-bottom li{
   padding: 34px 4px;
@@ -654,5 +574,4 @@ footer{
   border-radius: 30%;
   
 }
-.scroll-top{
-}
+
