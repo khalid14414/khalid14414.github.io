@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="./asset/img/tracking.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -15,259 +16,516 @@
 </head>
 
 <body>
-    <header>
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <a href="./index.html" class="logo">DKQ</a>
 
-        <nav>
-            <div class="logo">
-                <a href="./index.html">DKQ</a>
-            </div>
-            <div class="nav-list">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Skills</a>
-                <a href="">Projects</a>
-                <a href="">Service</a>
-                <a href="">Contact Me</a>
-            </div>
-            <div class="button">
-                <button class="nav-btn">Download Cv</button>
-                <!-- <a class="nav-btn" href="assets/Your_CV.pdf" download="Philip_Quaicoe_CV.pdf">
-                    <button class="nav-btn">Download CV</button>
-                </a> -->
-            </div>
-        </nav>
-        <section class="hero-row">
-            <div class="hero">
-                <div class="hero-info">
-                    <h4>Hello, I am</h4>
-                    <span>PHILIP QUAICOE</span>
-                    <h4>Backend Developer</h4>
-                    <p>Crafting engaging and efficient websites, blending creativity with technical precision to solve real-world problems.!</p>
-                    <button class="hero-btn hire-me">Hire Me</button>
-                    <button class="hero-btn know-more">Know More</button>
-                </div>
-                <div class="hero-img">
-                    <img src="./asset/profile-pic (1).png" alt="me">
-                </div>
-                <div class="shapes"></div>
-            </div>
-        </section>
-    </header>
-    <section class="about">
-        <div class="about-container">
-          <div class="about-img">
-            <img src="./asset/IMG_0236IMG_0236_1.JPG" alt="Philip Quaicoe">
-          </div>
-          <div class="about-info">
-            <h2>About Me</h2>
-            <p>
-              I’m Philip Quaicoe, a backend developer with expertise in building efficient, scalable applications using JavaScript and Node.js. 
-              With a foundation in web technologies like HTML, CSS, and JavaScript, I aim to deliver robust backend solutions while maintaining clean, 
-              well-documented code. I’m passionate about continuous learning and adapting to new technologies to improve user experience and functionality.
-            </p>
-            <div class="skills">
-              <h3>Skills</h3>
-              <div class="skill">
-                <h4>HTML</h4>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 90%;"></div>
-                </div>
-              </div>
-              <div class="skill">
-                <h4>CSS</h4>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 85%;"></div>
-                </div>
-              </div>
-              <div class="skill">
-                <h4>JavaScript</h4>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 80%;"></div>
-                </div>
-              </div>
-              <div class="skill">
-                <h4>Node.js</h4>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 75%;"></div>
-                </div>
-              </div>
-              <div class="skill">
-                <h4>Git & GitHub</h4>
-                <div class="progress-bar">
-                  <div class="progress" style="width: 85%;"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    <section class="service">
-        <div class="service-container">
-            <h2>Our Services</h2>
-            <hr class="line1">
-            <hr class="line2">
-            <div class="service-row">
-                <div class="service-list">
-                    <i class="fa-solid fa-desktop"></i>
-                    <h3>Web Design</h3>
-                    <p>We create responsive and visually stunning websites tailored to your business needs.</p>
-                </div>
-                <div class="service-list">
-                    <i class="fa-solid fa-paint-brush"></i>
-                    <h3>Graphic Design</h3>
-                    <p>Crafting engaging and professional designs that reflect your brand identity.</p>
-                </div>
-                <div class="service-list">
-                    <i class="fa-solid fa-code"></i>
-                    <h3>Web Apps</h3>
-                    <p>Building scalable and secure web applications to optimize your operations.</p>
-                </div>
-                <div class="service-list">
-                    <i class="fa-solid fa-shopping-cart"></i>
-                    <h3>Ecommerce</h3>
-                    <p>Developing robust ecommerce platforms to enhance your online presence and sales.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="ma-work" >
-        <div id="projects" class="projects-section">
-            <h2>My Projects</h2>
-            <div class="projects-container">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <img src="./asset/pic1.jpg" alt="Project 1">
-                    <div class="overlay">
-                        <h3>Project Title 1</h3>
-                        <p>This is a description of the project. Built using HTML, CSS, and JavaScript.</p>
-                    </div>
-                </div>
-        
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <img src="./asset/pic2.jpg" alt="Project 2">
-                    <div class="overlay">
-                        <h3>Project Title 2</h3>
-                        <p>A brief overview of the project. Built using React and Node.js.</p>
-                    </div>
-                </div>
-        
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <img src="./asset/pic3.jpg" alt="Project 3">
-                    <div class="overlay">
-                        <h3>Project Title 3</h3>
-                        <p>This is another project description. Focused on web design and development.</p>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="./asset/pic4.jpg" alt="Project 3">
-                    <div class="overlay">
-                        <h3>Project Title 3</h3>
-                        <p>This is another project description. Focused on web design and development.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            <!-- Hamburger Menu -->
+            <button class="hamburger" aria-label="Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
 
-    <section class="education">
-            <div class="education-row">
-                <h2 class="resume">Education & Experience</h2>
-                <div class="education-container">
-                    <div class="edu-row">
-                        <h3 class="top">Education</h3>
-                        <div class="edu-list">
-                            <span class="date"><i class="fa-regular fa-calendar"></i>&nbsp; September 2019 - July 2024</span>
-                            <h3>Bachelor's Information Technology</h3>
-                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                            <span class="school">Ghana Communication Technology University</span>
-                        </div>
-                        <div class="edu-list">
-                            <span class="date"><i class="fa-regular fa-calendar"></i>&nbsp; September 2012 - May 2015</span>
-                            <h3>Senior High School Certificate</h3>
-                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                            <span class="school">Nsien Senior High school</span>
-                        </div>
-                    </div>
-                    <div class="exp-row">
-                        <h3 class="top">Experience</h3>
-                        <div class="exp-list">
-                            <span class="date"><i class="fa-regular fa-calendar"></i>&nbsp; March 2013 - Present</span>
-                            <h3> Statitician</h3>
-                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                            <span class="school">Ghana Revenue Authority</span>
-                        </div>
-                        <div class="exp-list">
-                            <span class="date"><i class="fa-regular fa-calendar"></i>&nbsp; March 2013 - Present</span>
-                            <h3>IT Support Technician</h3>
-                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                            <span class="school">Multimedia Group Limited</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
-
-    <section class="contact"></section>
-        <div class="contact-container">
-            <div class="contact-info">
-                <h2>Get In Touch</h2>
-                <p>Feel free to reach out to us for any inquiries or assistance.</p>
-                <ul class="info">
-                    <li><img src="./asset/mail.png" alt="Email Icon"> quaicoephilip14@gmail.com</li>
-                    <li><img src="./asset/telephone.png" alt="Phone Icon"> (+233) 557 424-675</li>
-                    <li><img src="./asset/location.png" alt="Location Icon"> FS876 BookShelf St,Accra</li>
+            <!-- Navigation Menu -->
+            <div class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#career" class="nav-link">Career</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
+
+                <!-- CTA Button -->
+                <a href="./asset/files/Philip Cv.pdf" download class="cta-btn">
+                    Download CV
+                </a>
             </div>
-            
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h4 class="greeting">Hello, I am</h4>
+                <h1 class="name">PHILIP QUAICOE</h1>
+                <h2 class="title">Backend Developer</h2>
+                <p class="description">Crafting engaging and efficient solutions, blending creativity with technical
+                    precision to solve real-world problems.</p>
+
+                <div class="cta-group">
+                    <a href="#about" class="cta-btn secondary">Hire me</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="./asset/img/profile-pic (1).png" alt="Philip Quaicoe" class="profile-imgs">
+                <div class="accent-shape"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <!-- Profile Image -->
+            <div class="profile-card">
+                <div class="profile-border">
+                    <img src="./asset/img/IMG_0236IMG_0236_1.JPG"  alt="Philip Quaicoe" class="profile-img">
+                </div>
+            </div>
+    
+            <!-- About Content -->
+            <div class="about-content">
+                <h2 class="section-title">About <span class="accent">Me</span></h2>
+                <p class="about-text">
+                    I'm a Web Developer with strong frontend fundamentals in HTML, CSS, and JavaScript, specializing in building efficient, scalable applications using Node.js, RESTful APIs, and robust database management. I aim to deliver high-quality backend solutions while maintaining clean, well-documented code. Passionate about continuous learning, I stay adaptable to new technologies to enhance functionality and user experience.</p>
+    
+                <!-- Tech Stack -->
+                <div class="tech-stack">
+                    <h3 class="stack-title">Core <span class="accent">Technologies</span></h3>
+                    <div class="tech-grid">
+                        <div class="about-tech-item">
+                            <i class="fab fa-node tech-icons"></i><br>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="about-tech-item">
+                            <i class="fas fa-database tech-icons"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="about-tech-item">
+                            <i class="fas fa-code tech-icons"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="about-tech-item">
+                            <i class="fab fa-html5 tech-icons"></i><br>
+                            <span> Html 5</span>
+                        </div>
+                        <div class="about-tech-item">
+                            <i class="fab fa-git-alt tech-icons"></i><br>
+                            <span>Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Development Services</h2>
+                <div class="title-decoration"></div>
+            </div>
+    
+            <div class="services-grid">
+                <!-- Web Design Service -->
+                <article class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-desktop"></i>
+                    </div>
+                    <h3>Web Architecture</h3>
+                    <p class="service-description">
+                        Crafting responsive, accessible websites with modern frameworks 
+                        and performance optimization.
+                    </p>
+                    <ul class="service-tech">
+                        <li>Html & Css</li>
+                        <li>Javascript</li>
+                        <li>Web Accessibility</li>
+                    </ul>
+                </article>
+    
+                <!-- API Development -->
+                <article class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>API Solutions</h3>
+                    <p class="service-description">
+                        Building secure, scalable RESTful APIs with proper documentation 
+                        and version control.
+                    </p>
+                    <ul class="service-tech">
+                        <li>Node.js/Express</li>
+                        <li>JWT</li>
+                        <li>Postman Docs</li>
+                    </ul>
+                </article>
+    
+                <!-- Database Service -->
+                <article class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3>Database Design</h3>
+                    <p class="service-description">
+                        Optimized database architectures with proper indexing 
+                        and query optimization.
+                    </p>
+                    <ul class="service-tech">
+                        <li>MongoDB/Mongoose</li>
+                        <li>Redis Caching</li>
+                        <li>SQL</li>
+                    </ul>
+                </article>
+    
+                <!-- DevOps Service -->
+                <article class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+                    <h3>DevOps & Deployment</h3>
+                    <p class="service-description">
+                        CI/CD pipelines and cloud infrastructure management 
+                        for seamless deployments.
+                    </p>
+                    <ul class="service-tech">
+                        <li>Docker</li>
+                        <li>AWS</li>
+                        <li>GitHub Actions</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Project Portfolio</h2>
+
+            <!-- Backend Projects -->
+            <div class="project-category">
+                <h3 class="category-title">Backend Development</h3>
+
+                <!-- Advertisement App -->
+                <article class="project-card backend">
+                    <div class="project-visual">
+                        <img src="ad-app-arch.png" alt="Advertisement App Architecture" class="project-image">
+                        <div class="tech-stacks">
+                            <span class="tech-items node">Node.js</span>
+                            <span class="tech-items mongo">MongoDB</span>
+                            <span class="tech-items redis">Redis</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h4>Advertisement Marketplace Platform</h4>
+                        <ul class="project-features">
+                            <li><i class="fas fa-users"></i> Team collaboration (4 members)</li>
+                            <li><i class="fas fa-sitemap"></i> Dynamic category management</li>
+                            <li><i class="fas fa-shield-alt"></i> Admin approval workflow</li>
+                            <li><i class="fas fa-code-branch"></i> Role-based access control</li>
+                        </ul>
+                        <div class="project-actions">
+                            <a href="#" class="btn github-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                            <a href="#" class="btn demo-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Apartment Booking System -->
+                <article class="project-card backend">
+                    <div class="project-visual">
+                        <img src="booking-system.png" alt="Booking System Architecture" class="project-image">
+                        <div class="tech-stacks">
+                            <span class="tech-items node">Express.js</span>
+                            <span class="tech-items mongo">Mongoose</span>
+                            <span class="tech-items jwt">JWT</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h4>Apartment Booking & Services Platform</h4>
+                        <ul class="project-features">
+                            <li><i class="fas fa-user-shield"></i> Multi-role user management</li>
+                            <li><i class="fas fa-check-double"></i> Admin-controlled approvals</li>
+                            <li><i class="fas fa-search"></i> Advanced search API</li>
+                            <li><i class="fas fa-filter"></i> Complex filtering system</li>
+                        </ul>
+                        <div class="project-actions">
+                            <a href="#" class="btn github-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                            <a href="#" class="btn demo-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Frontend Projects -->
+            <div class="project-category">
+                <h3 class="category-title">Frontend Development</h3>
+
+                <!-- Health Landing Page -->
+                <article class="project-card frontend">
+                    <div class="project-preview">
+                        <img src="./asset/img/Screenshot 2025-03-19 135919.png" alt="Health Landing Page"
+                            class="project-image">
+                        <div class="hover-overlay">
+                            <a href="#" class="preview-link">
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h4>Healthcare Landing Page</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <p class="project-description">
+                            Modern responsive design with smooth animations and mobile-first approach
+                        </p>
+                        <div class="project-actions">
+                            <a href="https://khalid14414.github.io/Real-Estate-Landing-page/" class="btn github-btn">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                            <a href="https://khalid14414.github.io/Online_Health/" class="btn demo-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Add this within the Frontend Projects category -->
+                <article class="project-card frontend">
+                    <div class="project-preview">
+                        <img src="./asset/img/Screenshot 2025-03-13 132204.png" alt="Inventors Landing Page"
+                            class="project-image">
+                        <div class="hover-overlay">
+                            <a href="https://khalid14414.github.io/inventors_landing_page/" class="preview-link"
+                                target="_blank">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h4>Inventors Landing Page</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <p class="project-description">
+                            Modern responsive landing page featuring dynamic content loading and smooth scroll
+                            interactions
+                        </p>
+                        <div class="project-actions">
+                            <a href="https://github.com/Khalid14414/inventors_landing_page" class="btn github-btn"
+                                target="_blank">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                            <a href="https://khalid14414.github.io/inventors_landing_page/" class="btn demo-btn"
+                                target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Real Estate Landing Page -->
+                <article class="project-card frontend">
+                    <div class="project-preview">
+                        <img src="./asset/img/Screenshot 2025-03-19 135332.png" alt="Real Estate Landing Page"
+                            class="project-image">
+                        <div class="hover-overlay">
+                           
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h4>Real Estate Presentation</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Flexbox</span>
+                            <span class="tech-tag">CSS Grid</span>
+                            <span class="tech-tag">ES6</span>
+                        </div>
+                        <p class="project-description">
+                            Professional property showcase with interactive elements and responsive layouts
+                        </p>
+                        <div class="project-actions">
+                            <a href="https://github.com/khalid14414/Real-Estate-Landing-page" class="btn github-btn">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                            <a href="https://khalid14414.github.io/Real-Estate-Landing-page/" class="btn demo-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="career" class="career-timeline">
+        <div class="container">
+            <h2 class="section-title">Career Timeline</h2>
+
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+
+                <!-- Experience Column -->
+                <div class="timeline-column">
+                    <h2 class="timeline-header">Experience</h2>
+
+                    <div class="timeline-item experience">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <h3>Backend Developer (Intern)</h3>
+                            <div class="company">CoreXtream Technologies</div>
+                            <span class="date">Nov 2024</span>
+                            <ul>
+                                <li>Developed user profile management system</li>
+                                <li>Designed RESTful APIs</li>
+                                <li>Optimized database performance by 25%</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item experience">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <h3>Backend Developer (Intern)</h3>
+                            <div class="company">CoreXtream Technologies</div>
+                            <span class="date">Nov 2024</span>
+                            <ul>
+                                <li>Developed user profile management system</li>
+                                <li>Designed RESTful APIs</li>
+                                <li>Optimized database performance by 25%</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item experience">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <h3>IT Support Technician</h3>
+                            <div class="company">Multimedia Group Limited</div>
+                            <span class="date">2013 - Present</span>
+                            <ul>
+                                <li>Network administration and support</li>
+                                <li>Hardware/software troubleshooting</li>
+                                <li>Implemented ticket tracking system</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Column -->
+                <div class="timeline-column">
+                    <h2 class="timeline-header">Education</h2>
+
+                    <div class="timeline-item education">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <h3>Bachelor of Information Technology</h3>
+                            <div class="institution">Ghana Communication Tech University</div>
+                            <span class="date">2019 - 2024</span>
+                            <ul>
+                                <li>Software Development</li>
+                                <li>Database Systems</li>
+                                <li>Web Technologies</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item education">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <h3>Senior High School Certificate</h3>
+                            <div class="institution">Nsien Senior High School</div>
+                            <span class="date">2012 - 2015</span>
+                            <ul>
+                                <li>Mathematics & Statistics Focus</li>
+                                <li>Science & Technology Track</li>
+                                <li>Early Programming Electives</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="contact-section">
+        <h2>CONTACT US</h2>
+        <div class="contact-container">
+            <!-- Contact Info (30%) -->
+            <div class="contact-info">
+                <h3>Email</h3>
+                <p>quaicoephilip14@gmail.com</p>
+                <p>support@jdaskew.com</p>
+
+                <h3>Phone</h3>
+                <p>+233 557 424 675</p>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Contact Form (70%) -->
             <div class="contact-form">
-                <form action="#" method="post">
-                    <input type="text" id="name" name="name" placeholder="Your name">
-                    <input type="email" id="email" name="email" placeholder="Email address">
-                    <textarea id="message" name="message" rows="4" placeholder="Type Message"></textarea>
-                    
-                    <button type="submit">Send</button>
+                <h3>Get In Touch</h3>
+                <form>
+                    <div class="input-group">
+                        <input type="text" placeholder="Your Name *" required>
+                        <input type="email" placeholder="Your Email *" required>
+                    </div>
+                    <textarea placeholder="Your Message *" required></textarea>
+                    <button type="submit">
+                        Send Message
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
                 </form>
             </div>
         </div>
     </section>
-   
+
+    <!-- Footer section -->
     <footer class="footer">
-        <div class="footer-row">
-            <div class="footer-content">
-                <div class="brand">
-                    <h2>DKQ</h2>
-                    <p>In the mean time shall soon find out the cause of this: What was the epicurus towards their children.
-                    </p>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-pinterest"></i></a>
-                        <a href="#"><i class="fas fa-globe"></i></a>
-                    </div>
+        <div class="footer-container">
+            <!-- Main Footer Content -->
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <h2 class="footer-logo">DKQ</h2>
+                    <p class="footer-description">Passionate about creating efficient solutions and meaningful digital
+                        experiences.</p>
                 </div>
-                <div class="footer-buttons">
-                    <a href="#" class="btn-download-cv">Download CV</a>
-                    <a href="#" class="btn-letstalk">Let's Talk</a>
+
+                <div class="footer-actions">
+                    <a href="./asset/files/Philip Cv.pdf" class="cv-button">
+                        Download CV
+                        <i class="fas fa-download"></i>
+                    </a>
                 </div>
             </div>
-    
+
+            <!-- Copyright Section -->
             <div class="footer-bottom">
-                <p>Copyright ©2024 All rights reserved | This template is made with <i class="fas fa-heart"></i> by <span>Khalid</span> </p>
-                <ul class="footer-menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+                <p class="copyright">
+                    © 2024 Philip Quaicoe. All rights reserved.
+                    <span class="made-with">
+                        Crafted with <i class="fas fa-heart"></i> by Khalid
+                    </span>
+                </p>
             </div>
-    
-             Scroll To Top Button 
-            <a href="#" class="scroll-top"><i class="fas fa-arrow-up up"></i></a>
         </div>
-     </footer>
+        <!-- Scroll to Top Button -->
+        <button class="scroll-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <script src="./asset/js/main.js"></script>
 </body>
 
 </html>
