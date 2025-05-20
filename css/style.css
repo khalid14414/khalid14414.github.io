@@ -485,6 +485,14 @@
   background: rgba(255, 255, 255, 0.03);
   border-radius: 15px;
   width: 100%;
+  transition: var(--transition);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  border-color: var(--accent-color);
+  box-shadow: 0 10px 30px rgba(0, 199, 177, 0.1);
 }
 
 .backend {
@@ -1216,6 +1224,7 @@
     width: calc(100% + 2rem);
     border-radius: 0;
   }
+
 
   .project-image {
     border-radius: 0;
